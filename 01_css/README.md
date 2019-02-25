@@ -1,4 +1,10 @@
-step 1: build your demo.html
+# Course 01 css and html
+
+## Introduction 
+Follow guide bellow and build your web
+
+## Guide
+### step 1: Paste code bellow to demo.html
 ```
 <!DOCTYPE html>
 <html>
@@ -27,7 +33,7 @@ step 1: build your demo.html
 </html>
 ```
 
-step2: add content
+### step2: Add content
 ```
   <body>
     <div id="navbar">
@@ -58,7 +64,7 @@ step2: add content
   </body>
 ```
 
-step 3: link css
+### step 3: Link css
 ```
   <head>
     <meta charset="utf-8">
@@ -80,7 +86,7 @@ step 3: link css
   </head>
 ```
 
-step 4: display
+### step 4: Set display
 ```
 i.avatar, i.icon {
   background-position: center;
@@ -89,7 +95,7 @@ i.avatar, i.icon {
 }
 ```
 
-step 5: set banner position
+### step 5: Set position
 ```
 #navbar, #banner, #main, #bottom {
   background-color: white;
@@ -99,7 +105,7 @@ step 5: set banner position
 }
 ```
 
-step 6: z-index
+### step 6: Set z-index
 ```
 #main {
   box-sizing: border-box;
@@ -110,7 +116,7 @@ step 6: z-index
 }
 ```
 
-step 7: position 
+### step 7: Set position 
 ```
 .right {
   position: absolute;
@@ -118,7 +124,7 @@ step 7: position
 }
 ```
 
-step 8: font-size
+### step 8: Set font-size
 ```
 h1 {
   font-size: 30px;
