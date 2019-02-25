@@ -1,0 +1,126 @@
+step 1: build your demo.html
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>css demo</title>
+    <style>
+      #reference {
+        background: url('./res/demo.png') no-repeat top/contain;
+        bottom: 0;
+        padding: .5em;
+        position: fixed;
+        right: 0;
+        text-align: right;
+        top: 0;
+        width: 40vw;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="reference">
+    </div>
+  </body>
+</html>
+```
+
+step2: add content
+```
+  <body>
+    <div id="navbar">
+      <i class="arrow icon"></i>
+      <i class="dirty avatar"></i>
+      <i class="right dot icon"></i>
+    </div>
+
+    <div id="banner"></div>
+
+    <div id="main">
+      <h1>Outstanding<br>acoustics</h1>
+      <div class="info">
+        <div class="author">By dirty</div>
+        <div class="date">2018/03/14</div>
+      </div>
+      <p>Hi Rakesh, not only is it permitted to use reasonable capitalisation in the Display URL, I'd actually recommend it, however, there are some things that Google do in the way they're actually shown. It's fixed internally by WhatsApp, update will be pushed out soon (see thread.</p>
+      <p>Hi Rakesh, not only is it permitted to use reasonable capitalisation in the Display URL, I'd actually recommend it, however, there are some things that Google do in the way they're actually shown. It's fixed internally by WhatsApp, update will be pushed out soon (see thread.</p>
+      <p>Hi Rakesh, not only is it permitted to use reasonable capitalisation in the Display URL, I'd actually recommend it, however, there are some things that Google do in the way they're actually shown. It's fixed internally by WhatsApp, update will be pushed out soon (see thread.</p>
+    </div>
+
+    <div id="bottom">
+      <input type="text" placeholder="Say something...">
+      <i class="right submit icon"></i>
+    </div>
+    <div id="reference">
+    </div>
+  </body>
+```
+
+step 3: link css
+```
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>css demo</title>
+    <link href="demo.css" rel="stylesheet" type="text/css">
+    <style>
+      #reference {
+        background: url('./res/demo.png') no-repeat top/contain;
+        bottom: 0;
+        padding: .5em;
+        position: fixed;
+        right: 0;
+        text-align: right;
+        top: 0;
+        width: 40vw;
+      }
+    </style>
+  </head>
+```
+
+step 4: display
+```
+i.avatar, i.icon {
+  background-position: center;
+  display: inline-block;
+  height: 30px;
+}
+```
+
+step 5: set banner position
+```
+#navbar, #banner, #main, #bottom {
+  background-color: white;
+  max-width: 30em;
+  position: fixed;
+  width: 100%;
+}
+```
+
+step 6: z-index
+```
+#main {
+  box-sizing: border-box;
+  padding: 1px 4% 5vh;
+  position: relative;
+  top: 290px;
+  z-index: -1;
+}
+```
+
+step 7: position 
+```
+.right {
+  position: absolute;
+  right: 0.5em;
+}
+```
+
+step 8: font-size
+```
+h1 {
+  font-size: 30px;
+}
+```
