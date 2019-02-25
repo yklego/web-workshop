@@ -70,7 +70,7 @@ Follow guide bellow and build your web
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>css demo</title>
-    <link href="demo.css" rel="stylesheet" type="text/css">
+    <link href="app.css" rel="stylesheet" type="text/css">
     <style>
       #reference {
         background: url('./res/demo.png') no-repeat top/contain;
